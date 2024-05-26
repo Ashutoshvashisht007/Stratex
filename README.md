@@ -1,30 +1,46 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Box Office
 
-Currently, two official plugins are available:
+This project is a Movie Star Rating application built using Vite, React, TypeScript, and Redux Toolkit. The app allows users to view a list of movies, rate them, and mark their favorite movies with a star. The starred movies can be viewed separately and managed (added or removed) through the app's UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features
 
-## Expanding the ESLint configuration
+1. Fetches and displays a list of movies from an external API.
+2. Allows users to rate movies and mark them as favorites.
+3. Users can toggle between viewing all movies and only their starred movies.
+4. Stores starred movies using Redux for state management.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Prerequisites
+Make sure you have the following installed:
+Node.js (>= 12.x)
+npm (>= 6.x) or yarn (>= 1.x)
 
-- Configure the top-level `parserOptions` property like this:
+# Setup Instructions
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the Repository 
+  ```
+  git clone https://github.com/your-username/movie-star-rating-app.git
+  cd movie-star-rating-app
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+  ```
+2. Install Dependencies 
+
+  ``` npm install
+  ```
+
+3. Environment Variables
+  Create a .env file in the root of the project and add the following environment variable:
+
+ `VITE_API_LINK`=https://path-to-your-movies-api
+
+4. Run the Development Server
+
+  ```
+   npm run dev
+  ```
+  This will start the development server.
+
+## Tech Stack
+
+**Client:** React, Redux, CSS
+
