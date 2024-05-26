@@ -44,3 +44,11 @@ npm (>= 6.x) or yarn (>= 1.x)
 
 **Client:** React, Redux, CSS
 
+## Screen Shots
+
+1. Home Page
+![alt text](<src/assets/Screenshot (913).png>)
+
+2. Starred Page
+
+![alt text](<src/assets/Screenshot (914).png>)
