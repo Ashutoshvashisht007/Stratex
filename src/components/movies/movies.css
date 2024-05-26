@@ -1,0 +1,85 @@
+.movies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.moviesContainer{
+    padding: 15px;
+    width: 300px;
+    height: 100%;
+}
+
+.moviesContainerImage{
+    width: 100%;
+    border-radius: 40px;
+    height: 420px;
+    overflow: hidden;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.moviesContainerImageImg{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.moviesContainerFor{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.moviesContainerTitle{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.moviesContainerDesc{
+    margin-top: 15px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: center;
+    gap: 35px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.moviesContainerDescRatings{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.moviesContainerDescIMDB{
+    text-decoration-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+.moviesContainerDescBtn{
+    outline: none;
+    border: 1px solid rgb(142, 142, 142);
+    border-radius: 15px;
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.moviesStar:hover{
+    color: rgb(255, 200, 6);
+}

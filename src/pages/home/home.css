@@ -1,0 +1,57 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 0 40px;
+}
+
+.homeTitle {
+    color: rgb(36, 0, 255);
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.homeBtns{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 30%;
+}
+
+.homeBtns1{
+    border: none;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(36, 0, 255);
+    font-size: 18px;
+    position: relative;
+}
+.homeBtns2{
+    border: none;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    color: rgb(36, 0, 255);
+    font-size: 18px;
+    position: relative;
+}
+
+.homeBtns1:hover{
+    border-bottom: 2px solid rgb(36, 0, 255);
+}
+
+.homeBtns2:hover{
+    border-bottom: 2px solid rgb(36, 0, 255);
+}
+
+.homeMovies{
+    margin-top: 40px;
+    width: 95vw;
+}
