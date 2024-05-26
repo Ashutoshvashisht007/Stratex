@@ -43,13 +43,17 @@
     position: relative;
 }
 
-.homeBtns1:hover{
+.active{
     border-bottom: 2px solid rgb(36, 0, 255);
+}  
+
+/* .homeBtns1:hover{
+    
 }
 
 .homeBtns2:hover{
     border-bottom: 2px solid rgb(36, 0, 255);
-}
+} */
 
 .homeMovies{
     margin-top: 40px;

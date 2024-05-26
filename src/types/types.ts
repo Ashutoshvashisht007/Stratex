@@ -9,3 +9,7 @@ export type MoviesData = {
 export type MoviesProps = {
     movies: MoviesData[];
 }
+
+export interface StarredState {
+    starredMovies: MoviesData[];
+  }

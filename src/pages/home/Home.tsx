@@ -8,10 +8,10 @@ const Home = () => {
 
     const dispatch = useAppDispatch();
     const { data: movies, isLoading } = useAppSelector((state) => state.movie);
+    const {starredMovies} = useAppSelector((state) => state.starredMovies)
     
-    const [activeButton, setActiveButton] = useState<string | null>(null);
+    const [activeButton, setActiveButton] = useState<string | null>("Home");
     const [isHome,setIsHome] = useState<boolean>(true)
-    // const [movies,setMovies] = useState<MoviesData[]>([]);
 
     const handleButtonClick = (button: string) => {
         setActiveButton(button);
@@ -36,7 +36,7 @@ const Home = () => {
                 {
                     isHome === true ? 
                         < Movies movies={movies || []}/>
-                    : <span>Starred</span>
+                    : <Movies movies={starredMovies || []} /> 
                 }
             </div>
         </div>
