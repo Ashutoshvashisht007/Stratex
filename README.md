@@ -25,7 +25,8 @@ npm (>= 6.x) or yarn (>= 1.x)
   ```
 2. Install Dependencies 
 
-  ``` npm install
+  ```
+    npm install
   ```
 
 3. Environment Variables
