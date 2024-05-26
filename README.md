@@ -1,3 +1,6 @@
+## Video Link
+
+https://drive.google.com/file/d/1C5CiBEKcTFg0ulP7ZDNCMrwAaKVxdYi-/view?usp=sharing
 
 ## Box Office
 
@@ -19,8 +22,8 @@ npm (>= 6.x) or yarn (>= 1.x)
 
 1. Clone the Repository 
   ```
-  git clone https://github.com/your-username/movie-star-rating-app.git
-  cd movie-star-rating-app
+  git clone https://github.com/Ashutoshvashisht007/Stratex.git
+  cd Stratex
 
   ```
 2. Install Dependencies 
